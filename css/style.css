@@ -129,7 +129,7 @@ p {
 	color:#666;
 	font-weight:bolder;
 	line-height:25px;
-	font-family: 'open_sansregular';
+	font-family: 'helvetica_ce_55_romanregular';
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
  font-family: 'helvetica_ce_55_romanregular';
@@ -1624,7 +1624,7 @@ color:#fff;
 	padding-top: 3.125rem; 
 	padding-bottom: 3.125rem; 
 	justify-content: center;
-	background-image: url(/images/Slider/engranaje.png);
+	background-image: url('../images/Slider/engranaje.png');
 	background-attachment:fixed;
 	background-position: bottom;
 	background-size:cover;
@@ -1640,7 +1640,7 @@ color:#fff;
 	padding-top: 3.125rem; 
 	padding-bottom: 3.125rem; 
 	justify-content: center;
-	background-image: url(/images/Slider/banner.jpg);
+	background-image: url('../images/Slider/banner.jpg');
 	background-position: center;
 	background-size:cover;
 	background-repeat:no-repeat;
