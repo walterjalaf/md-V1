@@ -225,6 +225,7 @@ top:10px;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 #empresa-cliente .contenedor {
+    margin-top: 269px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));}
 
 }
@@ -243,6 +244,9 @@ top:10px;
 
     #img-slider-portada {
         width: 0;
+    }
+    a.btn-down-2-tec {
+        width: 70%;
     }
     #home-carousel .item {
         background-image:url('../images/Slider/1Mesa\ de\ trabajo\ 1.png');
@@ -266,6 +270,10 @@ top:10px;
     }
     #info .texto  {
         width: 100%;
+    }
+    .blog-info p {
+        text-align: center;
+        padding-top: 5px;
     }
 
     /* #mision-vision .carta {

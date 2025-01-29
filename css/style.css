@@ -69,6 +69,10 @@ color: #FFF;
  transform: scale(0.9);
 }
 }
+hr {
+	height: 2px;
+  background-color: #666;
+}
 .hvr-pulse {
 	display: inline-block;
 	vertical-align: middle;
@@ -199,6 +203,33 @@ a.btn-down-2 {
 	
 }
 a.btn-down-2:hover {
+	background:#fff;
+	color:#D75039;
+	transition:all 0.25s;
+	-moz-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	border-radius: 5px;
+	scale: 1.1;
+}
+a.btn-down-2-tec {
+	
+	height:50px;
+	width:50%;
+	color:white;
+	border:2px solid #D75039;
+	padding: 1.5% 2.5% 2% 8%;
+	position: relative;
+	top: 35px;
+	background: #D75039;
+	border-radius: 3px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 15px;
+	
+}
+a.btn-down-2-tec:hover {
 	background:#fff;
 	color:#D75039;
 	transition:all 0.25s;
@@ -865,10 +896,12 @@ ul.nav li.active a:before {
 }
 .blog-info:hover {
 	scale: 1.1;
+	text-decoration: 2px underline #D75039 ;
 }
 .blog-info h5 {
 	font-weight:bold;
 	padding-top:10px;
+	font-size: 22px;
 }
 .blog-info i.fa {
 	float:left;
@@ -917,6 +950,8 @@ a.btn-blg:hover {
 .blog-info p {
 	text-align:justify;
 	padding-top:5px;
+	margin: 5%;
+	font-size: 17px;
 }
 .blog-info ul.blog-icon {
 	margin:0;
@@ -1393,18 +1428,17 @@ color:#fff;
 
 #empresa-cliente .contenedor {
 	width: 90%;
-	max-width: 1300px;
+	max-width: 1100px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: 1fr;
-	gap:40px
+	grid-template-columns: repeat(6, 1fr);
+	gap:20px
 }
 
 /* Misión - Visión */
 #mision-vision .contenedor {
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	max-width: 1100px;
 	margin: 2.5% auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -1426,8 +1460,8 @@ color:#fff;
 }
 /* valores */
 #valores .contenedor {
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	max-width: 1100px;
 	margin: 2.5% auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -1473,7 +1507,10 @@ color:#fff;
 
 /* equipos */
 
-
+#nuestros-equipos .container {
+	max-width: 1100px;
+	width: 100%;
+}
 #nuestros-equipos .etiqueta-equipo{
 	margin: 5%;
 }
@@ -1492,16 +1529,16 @@ color:#fff;
 
 #impacto-social-pasantias .contenedor{
 	background-color:#FFFFFF ;
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	max-width: 1300px;
 	margin: 2.5% auto;
 
 }
 #impacto-social-pasantias .caja-texto {
-	width: 50%;
+	width: 90%;
 }
 #impacto-social-pasantias .slider-box {
-	width: 50%;
+	width: 250px;
 }
 
 #impacto-social-pasantias .img-pasantia {
