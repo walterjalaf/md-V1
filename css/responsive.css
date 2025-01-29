@@ -244,6 +244,13 @@ top:10px;
     #img-slider-portada {
         width: 0;
     }
+    #home-carousel .item {
+        background-image:url('../images/Slider/1Mesa\ de\ trabajo\ 1.png');
+         background-attachment:fixed;
+          background-position:center;
+          background-size:cover;
+          background-repeat:no-repeat;
+          height: 502px;}
     .carousel-caption {
         left: 0;
         right: 15px;
@@ -253,6 +260,12 @@ top:10px;
         color: #fff;
         text-shadow: none;
         margin-top: -199px;
+    }
+    #features.tab p {
+        text-align:center;
+    }
+    #info .texto  {
+        width: 100%;
     }
 
     /* #mision-vision .carta {
