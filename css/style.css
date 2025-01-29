@@ -1537,12 +1537,13 @@ color:#fff;
 #impacto-social-pasantias .caja-texto {
 	width: 90%;
 }
-#impacto-social-pasantias .slider-box {
-	width: 250px;
+#impacto-social-pasantias .container-pasantia {
+	margin-top: 5%;
+	max-width: 600px;
+	height: auto;
 }
-
 #impacto-social-pasantias .img-pasantia {
-	width: 100%;
+	width: 600px;
 	height: auto;
 	border-radius: 5px;
 }
