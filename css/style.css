@@ -181,7 +181,7 @@ span {
 }
 a:hover, a:focus {
 	text-decoration:none;
-	scale: 1.2;
+	
 }
 #botones {
 }
@@ -195,7 +195,7 @@ a.btn-down-2 {
 	position: relative;
 	top: 35px;
 	background: #D75039;
-	border-radius: 3px;
+	border-radius: 10px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -209,7 +209,7 @@ a.btn-down-2:hover {
 	-moz-transition: all 0.25s;
 	-o-transition: all 0.25s;
 	-webkit-transition: all 0.25s;
-	border-radius: 5px;
+	border-radius: 10px;
 	scale: 1.1;
 }
 a.btn-down-2-tec {
@@ -222,7 +222,7 @@ a.btn-down-2-tec {
 	position: relative;
 	top: 35px;
 	background: #D75039;
-	border-radius: 3px;
+	border-radius: 10px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -253,7 +253,7 @@ a.btn-down-3 {
 	position: relative;
 	top: 35px;
 	background: #fff;
-	border-radius: 3px;
+	border-radius: 10px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -339,6 +339,7 @@ a.btn-send:hover {
 .navbar-default {
 	background: #fff;
 	border:none;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
 	padding:10px 10px;
 	font-family:  'Montserrat';
 	font-size: 18px;
@@ -349,6 +350,8 @@ a.navbar-brand img {
 	position:relative;
 	top:9px;
 }
+
+
 #logo{
 	width: 200px;
 	height: 200px;
@@ -444,7 +447,7 @@ a.navbar-brand img {
 	position: relative;
 	background: #D75039;
 	align-content: center;
-	border-radius: 3px;
+	border-radius: 10px;
 	
 }
 #menu .btn-contact:hover {
@@ -689,9 +692,12 @@ ul.nav li.active a:before {
 	text-align:justify;
 }
 #features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
-	box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
-	border-bottom:2px solid #D75039;
-	background:#f8f8f8;
+	
+	box-shadow: -6px 20px 16px rgba(0, 0, 0, .26);    
+    background: #D75039;
+	color: #fff;
+
+	
 }
 #features .nav-tabs > li > a {
 	color:#393939;
@@ -706,6 +712,7 @@ ul.nav li.active a:before {
 	height: 80px;
 	line-height: 80px;
 	font-size: 15px;
+	
 }
 #features .nav-tabs > li > a i.fa {
 	font-size:25px;
@@ -802,9 +809,7 @@ ul.nav li.active a:before {
 	border-radius: 5px;
 	box-shadow: 3px 4px 5px #666666ac;
 }
-#img-portfolio-item:hover {
-	scale: 1.5;
-}
+
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
 	width: auto;
 
@@ -835,7 +840,7 @@ ul.nav li.active a:before {
 	
 }
 #portfolio .portfolio-item:hover .portfolio-info i.fa:hover {
-	scale: 1.2;
+	
 	color:#fff;
 	
 	
@@ -983,6 +988,40 @@ a.btn-blg:hover {
 	-o-transition: all 0.8s;
 	-webkit-transition: all 0.8s;
 }
+
+#slider-client{
+	background: #ffffff;
+  height: 100px;
+  width: 50vw;
+  overflow: hidden;
+}
+
+#slider-client .move {
+	display: flex;
+  width: calc(250px * 14);
+  animation: animacion 50s linear infinite;
+}
+@keyframes animacion {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(calc(-250px * 7));
+	}
+}
+
+#slider-client .box{
+	height: 100px;
+  width: 100px;
+}
+
+#slider-client .box img{
+	width: 100px;
+  height: 100px;
+
+}
+
+
 /*Contact-stylesheets-include-here*/
 #contact {
 	text-align:center;
@@ -1078,7 +1117,7 @@ textarea.form-control {
 	resize: none;
 }
 .form-control {
-	border: 1px solid #ccc;
+	border: 1px solid #666;
 	height: 35px;
 	border-radius: 0;
 	box-shadow: none;
@@ -1528,7 +1567,7 @@ color:#fff;
 /* pasantias */
 
 #impacto-social-pasantias .contenedor{
-	background-color:#FFFFFF ;
+	/* background-color:#FFFFFF ; */
 	width: 100%;
 	max-width: 1300px;
 	margin: 2.5% auto;
@@ -1539,13 +1578,14 @@ color:#fff;
 }
 #impacto-social-pasantias .container-pasantia {
 	margin-top: 5%;
-	max-width: 600px;
-	height: auto;
+	
 }
-#impacto-social-pasantias .img-pasantia {
-	width: 600px;
+.img-pasantia {
+	width: 0%;
 	height: auto;
 	border-radius: 5px;
+	margin: 2.5%;
+	
 }
 
 
@@ -1583,8 +1623,39 @@ color:#fff;
 
 }
 
+/* Academia */
+
+#portada-academia .contenedor {
+	width: 100%;
+	height: 586px;
+	margin: 2.5% auto;
+	padding-top: 3.125rem; 
+	padding-bottom: 3.125rem; 
+	
+	background-image: url('../images/Slider/portada-academia.jpeg');
+	background-position: 0% 34%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position: relative;
+	z-index: 10;
+}
+
+#portada-academia .titulo {
+	text-align: center;
+	max-width: 42.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+#portada-academia .titulo h2  {
+	color: #fff;
+	font-size: 45px;
+	/* centrado */
 
 
+}
 
 
 
@@ -1846,4 +1917,19 @@ a .flex-none {
 }
 #footer-down .footer-menu li:hover {
 	scale: 1.3;
+}
+
+/* Industria Minera */
+
+/* clientes */
+
+.clientes-mineros{
+	display: inline-block;
+	margin:  4.5% 1.5% 1.5% 1.5%;
+	
+}
+
+.img-cliente-minero {
+	width: 100px;
+	height: auto;
 }
