@@ -1581,7 +1581,7 @@ color:#fff;
 	
 }
 .img-pasantia {
-	width: 0%;
+	width: 100%;
 	height: auto;
 	border-radius: 5px;
 	margin: 2.5%;
@@ -1621,6 +1621,15 @@ color:#fff;
 	/* centrado */
 
 
+}
+
+/* Industria produccion en serie */
+
+#industria-minera-servicio h5 {
+	font-size: 22px;
+    color: #666;
+	font-weight: bolder;
+    line-height: 25px;
 }
 
 /* Academia */
