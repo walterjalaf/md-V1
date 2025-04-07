@@ -1496,6 +1496,8 @@ color:#fff;
 }
 #mision-vision .carta  p, h3 {
 	color:#fff;
+	font-weight: normal;
+	line-height: normal;
 }
 /* valores */
 #valores .contenedor {
@@ -1515,6 +1517,7 @@ color:#fff;
     max-width: auto;
     text-align: center;
 	margin-bottom: 15px;
+	cursor: pointer;
 }
 #valores .valor:hover{
 	transform: scale(1.2);
